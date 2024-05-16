@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/parallax.js"></script>
+    <title>Eclipse Cafe</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicación</a>
+            </nav>
+            <div class="textos">
+                <h1 class="nombre"><span>Café</span> Eclipse</h1>
+                <h3>Una experiencia única para los amantes del café<br> 
+                    que buscan más que una simple taza ...</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="./img/extra.jpg" alt="">
+                </div>
+                <article>
+                    <h3>Acerca de</h3>
+                    <p>En Eclipse Café, ofrecemos una experiencia única para los amantes del café. 
+                        Inspirados en el fenómeno astronómico, nuestro café se esfuerza por encarnar 
+                        elegancia y misterio en todos los aspectos, desde el diseño hasta la selección 
+                        de cafés de especialidad. 
+                        <br>
+                        Eclipse Café es más que una simple cafetería, es un santuario para los amantes 
+                        del café que buscan una experiencia memorable.
+                        </p>
+                </article>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platillos">Menú</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">Aperitivos</p>
+                            <div class="platillo">
+                                <p class="nombre">Croissant de Mantequilla</p>
+                                <p class="precio">$25.00</p>
+                                <p class="descripcion">Un clásico croissant francés recién horneado, con un interior suave 
+                                    y una capa exterior dorada y escamosa. Perfecto para acompañar tu café matutino o disfrutar 
+                                    como un ligero tentempié.</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Muffin de Arándanos</p>
+                                <p class="precio">$30.00</p>
+                                <p class="descripcion">Un delicioso muffin de arándanos, horneado a la perfección con arándanos 
+                                    jugosos y una masa esponjosa. Es una opción deliciosa para cualquier 
+                                    momento del día.</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Galletas de Chocolate</p>
+                                <p class="precio">$20.00</p>
+                                <p class="descripcion">Galletas de chocolate recién horneadas, con trozos de chocolate derretido 
+                                    en cada bocado. Crujientes por fuera y suaves por dentro, son el acompañamiento perfecto para 
+                                    tu café o té.</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Tarta de Zanahoria</p>
+                                <p class="precio">$45.00</p>
+                                <p class="descripcion">Una deliciosa tarta de zanahoria casera, con una mezcla de zanahorias ralladas, 
+                                    nueces y especias, cubierta con un glaseado de queso crema. Dulce, húmeda y llena de sabor, es el 
+                                    postre perfecto para acompañar tu café o té</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Bollos de Canela</p>
+                                <p class="precio">$35.00</p>
+                                <p class="descripcion">Bollos de canela recién horneados, cubiertos con un glaseado dulce y aromático. 
+                                    Suaves, esponjosos y llenos de sabor a canela..</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Tabla de Quesos y Embutidos</p>
+                                <p class="precio">$150.00</p>
+                                <p class="descripcion">Una selección de quesos artesanales y embutidos de alta calidad, acompañados de 
+                                    pan recién horneado, frutos secos y mermelada casera. Perfecto para compartir con amigos.</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <p class="categoria">Bebidas</p>
+                            <div class="platillo">
+                                <p class="nombre">Espresso</p>
+                                <p class="precio">$50.00</p>
+                                <p class="descripcion">Un tiro doble de espresso negro como la noche, 
+                                    elaborado con granos de café de especialidad cuidadosamente seleccionados. 
+                                    Intenso y robusto, perfecto para los amantes del café fuerte.</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Café Latte</p>
+                                <p class="precio">$70.00</p>
+                                <p class="descripcion">Una armoniosa mezcla de espresso y leche vaporizada, 
+                                    coronada con una suave capa de espuma. Suave y cremoso, ideal para disfrutar 
+                                    en cualquier momento del día</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Cappuccino</p>
+                                <p class="precio">$80.00</p>
+                                <p class="descripcion">Una equilibrada combinación de espresso, leche vaporizada 
+                                    y espuma de leche. Con una textura suave y una capa de espuma ligera, es la 
+                                    elección perfecta para los que buscan un café con un toque de indulgencia</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Mocha</p>
+                                <p class="precio">$90.00</p>
+                                <p class="descripcion">Una deliciosa fusión de espresso, leche vaporizada, chocolate 
+                                    y una generosa capa de crema batida. Dulce e indulgente, es una opción reconfortante 
+                                    para los amantes del chocolate</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Café Americano</p>
+                                <p class="precio">$60.00</p>
+                                <p class="descripcion">Un espresso doble al que se le añade agua caliente, creando 
+                                    una bebida suave y equilibrada. Perfecto para aquellos que prefieren un café más 
+                                    suave y ligero.</p>
+                            </div>
+                            
+                            <div class="platillo">
+                                <p class="nombre">Café Helado</p>
+                                <p class="precio">$90.00</p>
+                                <p class="descripcion">Una refrescante combinación de espresso, hielo y leche, endulzada 
+                                    a tu gusto. Frío y revitalizante, es la opción perfecta para los días calurosos de verano.</p>
+                            </div>
+                            
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="img/1.jpg" alt="1">
+            </div>
+            <div class="foto">
+                <img src="img/2.jpg" alt="2">
+            </div>
+            <div class="foto">
+                <img src="img/3.jpg" alt="3">
+            </div>
+            <div class="foto">
+                <img src="img/4.jpg" alt="4">
+            </div>
+            <div class="foto">
+                <img src="img/5.jpg" alt="5">
+            </div>
+            <div class="foto">
+                <img src="img/6.jpg" alt="6">
+            </div>
+            <div class="foto">
+                <img src="img/7.jpg" alt="7">
+            </div>
+            <div class="foto">
+                <img src="img/8.jpg" alt="8">
+            </div>
+
+        </section>
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor" id="contenedor">
+                <h3 class="titulo">Ubicacion</h3>
+                <div class="direccion">
+                    <p class="calle">2520 Primrose Lane <br/>Athena, CA 65972</p>
+                    <p class="telefono"> (556) 982 1763</p>
+                    <p class="correo">coffee@correo.com</p>
+                </div>
+
+                <div class="horarios">
+                    <h4>Horarios</h4>
+                    <p class="entre-semana">Lunes a Viernes <br> 8:00am - 9:00pm</p>
+                    <p class="fin-semana">Sabados y domingos <br> 11:00am - 11:00pm</p>
+                </div>
+            </div>
+        </section>
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37629.49080611357!2d-99.16869768485441!3d19.447719885712736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8dbc7f643f7%3A0x1d9b7ca35f8b46c6!2sF%C3%B3rum%20Buenavista!5e0!3m2!1ses-419!2smx!4v1714062044489!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                    <p>Eclipse Café</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
